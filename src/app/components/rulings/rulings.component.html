@@ -1,0 +1,11 @@
+<section class="rulings">
+    <div class="rulings__header">
+        <h3 class="rulings__title">{{title}}</h3>
+        <div class="rulings__view">
+            <p-dropdown [options]="views" [(ngModel)]="selectedView" optionLabel="name" dropdownIcon="pi"></p-dropdown>
+        </div>
+    </div>
+    <div class="rulings__body" [class.grid-view]="selectedView.name === 'Grid'">
+        <vote-card [mode]="selectedView.name" [data]="figure" *ngFor="let figure of figures$ | async"></vote-card>
+    </div>
+</section>

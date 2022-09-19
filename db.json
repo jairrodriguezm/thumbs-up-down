@@ -1,0 +1,76 @@
+{
+  "figures": [
+    {
+      "id": 1,
+      "name": "Kanye West",
+      "description": "Born in Atlanta and raised in Chicago, West was first known as a producer for Roc-A-Fella Records in the early 2000s, producing singles for several mainstream artists.",
+      "category": "entertainment",
+      "picture": "kanye.png",
+      "lastUpdated": "2022-09-10T23:08:57.892Z",
+      "votes": {
+        "positive": 25,
+        "negative": 39
+      }
+    },
+    {
+      "id": 2,
+      "name": "Mark Zuckerberg",
+      "description": "Born in White Plains, New York, Zuckerberg attended Harvard University, where he launched the Facebook social networking service from his dormitory room on February 4, 2004.",
+      "category": "business",
+      "picture": "mark.png",
+      "lastUpdated": "2022-02-14T23:10:19.134Z",
+      "votes": {
+        "positive": 422,
+        "negative": 324
+      }
+    },
+    {
+      "id": 3,
+      "name": "Cristina Fernández de Kirchner",
+      "description": "Her first term of office started with a conflict with the agricultural sector, and her proposed taxation system was rejected.",
+      "category": "politics",
+      "picture": "cristina.png",
+      "lastUpdated": "2020-02-10T23:41:07.120Z",
+      "votes": {
+        "positive": 46,
+        "negative": 99
+      }
+    },
+    {
+      "id": 4,
+      "name": "Malala Yousafzai",
+      "description": "The daughter of educational activist Ziauddin, Yousafzai was born to a Pashtun family in Mingora, Khyber Pakhtunkhwa, Pakistan. Her family came to run a chain of schools in the region.",
+      "category": "politics",
+      "picture": "malala.png",
+      "lastUpdated": "2020-12-10T23:41:07.120Z",
+      "votes": {
+        "positive": 28,
+        "negative": 13
+      }
+    },
+    {
+      "id": 5,
+      "name": "Elon Musk",
+      "description": "In 2002, Musk founded SpaceX, an aerospace manufacturer and space transport services company, of which he is CEO, CTO, and lead designer.",
+      "category": "business",
+      "picture": "elon.png",
+      "lastUpdated": "2021-12-20T23:43:38.041Z",
+      "votes": {
+        "positive": 1240,
+        "negative": 894
+      }
+    },
+    {
+      "id": 6,
+      "name": "Greta Thumberg",
+      "description": "Thunberg's activism started after convincing her parents to adopt several lifestyle choices to reduce their own carbon footprint.",
+      "category": "environment",
+      "picture": "greta.png",
+      "lastUpdated": "2022-09-07T23:44:50.326Z",
+      "votes": {
+        "positive": 119,
+        "negative": 54
+      }
+    }
+  ]
+}

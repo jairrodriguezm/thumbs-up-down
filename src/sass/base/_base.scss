@@ -1,0 +1,28 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    background-color: var(--color-white);
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+body {
+    position: relative;
+}
+
+a, a:visited {
+    color: var(--color-white);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+hr[role="separator"] {
+    border: 0 none;
+    border-bottom: 2px dotted var(--color-dark-gray);
+    margin: 1.5rem 1rem;
+}
