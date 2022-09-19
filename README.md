@@ -1,6 +1,31 @@
-# RuleOfThumb
+# Rule of Thumb
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
+
+## Instalation
+
+- Clone this repo in your computer
+- Run `npm install -g @angular/cli` in case you haven't installed angular CLI in your PC
+- Run `npm install` in order to get all project packages
+- Run `npm run json-run` to execute a local server which provide data for the app, you can access to it navigating to `http://localhost:3000/`
+- Run `ng serve -o` to get a dev server for the application, you can access to it navigating to `http://localhost:4000/`
+
+## Relevant features
+
+- Routing
+- sass/scss
+- interfaces
+- enumerables
+- pipes
+- services
+- rxjs
+- environment vars
+- json server
+- moment
+- primeng
+- sass architecture
+- transitions
+- animations
 
 ## Development server
 
