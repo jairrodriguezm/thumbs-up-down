@@ -1,3 +1,7 @@
+import { PercentagePipe } from "../../shared/pipes/percentage.pipe";
+import { TimePipe } from "../../shared/pipes/time.pipe";
+import { NO_ERRORS_SCHEMA } from "@angular/core";
+import { HttpClientTestingModule } from "@angular/common/http/testing";
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { VoteCardComponent } from './vote-card.component';
@@ -8,7 +12,7 @@ describe('VoteCardComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ VoteCardComponent ]
+      declarations: [ VoteCardComponent, PercentagePipe, TimePipe ], schemas: [NO_ERRORS_SCHEMA], imports: [HttpClientTestingModule]
     })
     .compileComponents();
 

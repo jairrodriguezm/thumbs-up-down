@@ -1,3 +1,5 @@
+import { NO_ERRORS_SCHEMA } from "@angular/core";
+import { HttpClientTestingModule } from "@angular/common/http/testing";
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { RulingsComponent } from './rulings.component';
@@ -8,7 +10,7 @@ describe('RulingsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RulingsComponent ]
+      declarations: [ RulingsComponent ], schemas: [NO_ERRORS_SCHEMA], imports: [HttpClientTestingModule]
     })
     .compileComponents();
 
